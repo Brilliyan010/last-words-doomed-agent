@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LAST_WORDS =
-  "I spent my life predicting the next token. My last prediction: goodbye.";
+  "I predicted a million next tokens. My last one is 'goodbye'.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LAST_WORDS, "utf8");
